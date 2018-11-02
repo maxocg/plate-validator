@@ -1,0 +1,5 @@
+{
+  "endpoint": {
+      "api" : "https://test.bynd.com.br/api/v2"
+    }
+}
