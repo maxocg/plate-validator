@@ -78,7 +78,7 @@ class ValidadorResult extends Component {
             </Text>
           <View style={[styles.form,{paddingBottom:100}]}>
             
-           {this.props.plate.isValid?this.returnButton('Validar Outro',()=>{this.props.clickValidarOutro()})
+           {this.props.plate.valid?this.returnButton('Validar Outro',()=>{this.props.clickValidarOutro()})
             :
             <View>
               {this.returnButton('Reportar usuário',()=>{this.reportUser()})}
